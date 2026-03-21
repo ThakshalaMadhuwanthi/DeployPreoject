@@ -27,7 +27,7 @@ ssh thakshala@192.168.43.34 << 'ENDSSH'
 if [ ! -d ~/DeployPreoject ]; then
     git clone git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git ~/DeployPreoject
 fi
-cd ~/DeployPreoject/DeployPreoject
+cd ~/DeployPreoject
 git pull origin main
 ansible-playbook -i Ansible/inventory Ansible/configure.yml
 ENDSSH
