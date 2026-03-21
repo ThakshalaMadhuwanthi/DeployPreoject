@@ -11,7 +11,9 @@ stages{
     stage('gitclone'){
         steps{
 
-           git 'https://github.com/ThakshalaMadhuwanthi/DeployPreoject.git' 
+           git branch: 'main',
+           credentialsId: 'git',
+           url: 'git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git'
         }
     }
     stage('containercreate'){
