@@ -3,8 +3,18 @@
   become: yes
   hosts: work_group
   tasks:
+
+
+    - name: clone the repo
+      git:
+        repo: 'git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git'
+        dest: /home/jenkins/DeployPreoject
+        version: main
+        force: yes
+        accept_hostkey: yes
+
     - name: deploy_frontend
       command: docker compose up -d --build
       args:
-        chdir: /home/thakshala/DeployPreoject
+        chdir: /home/jenkins/DeployPreoject
       
