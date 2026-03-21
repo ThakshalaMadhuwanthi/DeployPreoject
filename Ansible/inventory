@@ -1,2 +1,2 @@
 [work_group]
-192.168.43.199 
+jenkins ansible_host=192.168.43.199 ansible_user=jenkins
