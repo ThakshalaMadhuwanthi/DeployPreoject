@@ -16,5 +16,5 @@
     - name: deploy_project
       command: docker-compose up -d --build
       args:
-        chdir: /home/thakshala/DeployPreoject/DeployPreoject
+        chdir: /home/thakshala/DeployPreoject/
       
