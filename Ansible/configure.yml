@@ -14,7 +14,7 @@
         accept_hostkey: yes
 
     - name: deploy_project
-      shell: /usr/libexec/docker/cli-plugins/docker-compose up -d --build
+      shell: /usr/local/bin/docker-compose up -d --build
       args:
         chdir: /home/thakshala/DeployPreoject/
       
