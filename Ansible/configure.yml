@@ -8,7 +8,7 @@
     - name: clone the repo
       git:
         repo: 'git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git'
-        dest: /home/thakshala
+        dest: /home/thakshala/DeployPreoject
         version: main
         force: yes
         accept_hostkey: yes
@@ -16,5 +16,5 @@
     - name: deploy_project
       command: docker-compose up -d --build
       args:
-        chdir: /home/thakshala/DeployPreoject
+        chdir: /home/thakshala/DeployPreoject/Deploypreoject
       
