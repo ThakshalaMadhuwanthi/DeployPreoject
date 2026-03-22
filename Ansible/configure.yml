@@ -1,6 +1,5 @@
 ---
 - name: deploy_project
-  become: yes
   hosts: work_group
   tasks:
 
