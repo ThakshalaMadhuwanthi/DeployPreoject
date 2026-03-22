@@ -8,7 +8,7 @@
     - name: clone the repo
       git:
         repo: 'git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git'
-        dest: /home/thakshala/DeployPreoject
+        dest: /home/thakshala
         version: main
         force: yes
         accept_hostkey: yes
