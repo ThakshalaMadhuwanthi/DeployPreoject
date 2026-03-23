@@ -1,4 +1,4 @@
-# DeployProject
+# InfraAutomation
 
 🚀 **DevOps Deployment Project**  
 This project demonstrates a full-stack Node.js + MongoDB app deployed using Docker, Jenkins, Ansible, and Git, with CI/CD automation on a virtualized environment.
@@ -24,7 +24,7 @@ This project demonstrates a full-stack Node.js + MongoDB app deployed using Dock
 ```bash
 1️⃣ Clone the repo
 git clone git@github.com:ThakshalaMadhuwanthi/DeployPreoject.git
-cd DeployPreoject
+cd InfraAutomation
 
 2️⃣ Configure Ansible Server
 Run on a VM (Oracle VirtualBox)
